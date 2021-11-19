@@ -88,7 +88,7 @@ class Juego {
     if (estado.equals("menu")) {
       if (mouseX >= width/3+40 && mouseX <= (width/1.5)-40 && mouseY >= (height/2.9)-25 && mouseY <= (height/2.9)+25 ) {
         estado= "jugando";
-      }//(width/2.08, height/2.8,200,50)
+      }
     } else if (estado.equals("perdiste")) {
       if (mouseX >= width/3 && mouseX <= (width/2)+100 && mouseY >= height/3.5 && mouseY <= (height/3)+25 ) {
         estado= "menu";
