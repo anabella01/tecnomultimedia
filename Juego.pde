@@ -6,7 +6,6 @@ class Juego {
   PFont tipo;
   PImage[] pant = new PImage [3];
   Serpiente se;
-  int p0;
   boolean menu = true, ganar = false, perder = false;
 
   //Constructor
